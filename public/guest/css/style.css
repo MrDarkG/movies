@@ -1,0 +1,45 @@
+.showfilters{
+  margin-top: 20px;
+	-webkit-animation-name: fadeInUp;
+  animation-duration: 1s; 
+  opacity: 1;
+
+  animation-name: fadeInUp;
+}
+.showfiltersout{
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+  animation-duration: 1s; 
+  opacity: 0;
+
+}
+.animated {
+  padding-top:20px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fadein{
+  animation: fadeInDown; 
+  animation-duration: 1s; 
+  animation-delay: 1s;
+}
+.vue-slider-process,.vue-slider-dot{
+  z-index: 0!important;
+}
+.vue-slider-process{
+  background: #EE620E!important
+}
+.pr-col{
+  color: #EE620E!important;
+}
+.vue-slider-dot-handle{
+  border:2px solid #ec5c5c!important;
+}
+.heartbeat{
+  animation: heartBeat; 
+  animation-duration: 1s; 
+  animation-delay: 1s;
+}
+
